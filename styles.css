@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;  
+    align-Items: center;
+    height: 200vh;
+    background-image: url(17534.jpg);
+    background-size: cover;
+    filter: blur(100);
+}
+.movie-container{
+    width: 80%;
+    height: auto;
+    border: 30px solid rgba(183, 227, 6, 0.4);
+    background: none;
+    backdrop-filter: blur(50px);
+    position: relative;
+}
+img{
+    height: 600px;
+    float: left;
+}
+.title{
+    position: absolute;
+    left: 500px;
+    color:rgb(144, 223, 110);
+    padding: 50px 80px;
+    font-size: 55px;
+    font-family: 'Franklin Gothic Redium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+h3{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(162, 209, 116);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    text-transform: uppercase;
+    letter-spacing:10px;
+    top: 180px;
+    left: 500px;
+}
+.dis{
+    position: absolute;
+    left: 30%;
+    top: 150px;
+    padding: 80px 80px;
+    color:#fff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.ratebutton{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    padding: 20px 70px;
+    font-size: 30px;
+    border: 5px solid #fff;
+    background: none;
+    color:  #f1f1f1;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+watchtrailorbutton{
+    position: absolute;
+    top: 70%;
+    left: 36%;
+    padding: 20px 70px;
+    font-size: 30px;
+    border: 5px solid #fff;
+    background: none;
+    color:  #f1f1f1;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    color: #000;
+    background:  #f3f3f3;
+}
